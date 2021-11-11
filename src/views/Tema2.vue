@@ -2,12 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
     .titulo-principal
       .titulo-principal__numero
         span 2
       h1 Grupo de inicio del proyecto
-    figure.mt-5(data-aos="flip-up")
+    figure.mt-1(data-aos="flip-up")
       img(src="@/assets/template/tema-2-1.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2
@@ -19,16 +18,16 @@
             .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block
               figure
                 img(src="@/assets/template/tema-2-2.svg", alt="Texto que describa la imagen").floating.w-75.margin-0-auto
-    .titulo-segundo.mt-5.color-acento-contenido
+    .titulo-segundo.mt-0.color-acento-contenido
       #t_2_1.h2 2.1 Definición y componentes para el inicio de un proyecto
-    figure.mt-5(data-aos="flip-up")
+    figure.mt-0(data-aos="flip-up")
       img(src="@/assets/template/tema-2-3.png", alt="Texto que describa la imagen")
     p.mt-5 Lo primero que se deberá conocer al dar inicio a un proyecto son sus objetivos, cuáles serán los resultados esperados, el alcance, la duración y los recursos. Por lo que un proyecto debería partir dando respuesta a las siguientes preguntas:
-    .row.mt-5(data-aos="fade-up-right")
+    .row.mt-2(data-aos="fade-up-right")
       .col-12.col-lg-10.offset-0.offset-lg-1
         figure
           img(src="@/assets/template/tema-2-4.png", alt="Texto que describa la imagen")
-    p.mt-5 Los proyectos son originados como respuesta a necesidades y requerimientos de diferentes partes interesadas, como lo pueden ser:
+    p.mt-3 Los proyectos son originados como respuesta a necesidades y requerimientos de diferentes partes interesadas, como lo pueden ser:
     .row.mt-5
       .col-5.col-lg-2.bg-azul-claro.rounded-15.text-white.text-center.p-0.ml-3
         .row.mx-0.bg-primario.py-2.rounded-15-top  
@@ -77,7 +76,7 @@
       .col-12.col-lg-10
         p Una vez identificada la necesidad origen y luego de haber dado respuesta a las cinco preguntas previas de un proyecto, es necesario proceder con los estudios previos, como la viabilidad y factibilidad del proyecto. Este estudio consiste en identificar si el proyecto cuenta con la capacidad para finalizar satisfactoriamente, entregando los resultados esperados con la iniciativa. Analizar esta cualidad antes de la etapa de planificación sirve como guía para impulsar la toma de decisiones desde la comprensión integral de los parámetros del proyecto, los objetivos a alcanzar y los factores de riesgo desde los puntos de vista económico, social, ambiental, técnico, legal, de mercado, etc.
         p.mt-3 Son muchos los proyectos que fracasan en el tiempo por no tener claridad previa sobre la viabilidad y factibilidad de ejecutarse. Seguramente, ha conocido muchos casos empresariales de ideas emprendedoras, innovadoras, pero que terminan cerrando con el tiempo, sin entender por qué esta idea exitosa no es rentable.
-    .row.mt-5.rounded-15.bg-amarillo-claro.p-5.zoom-in(data-aos="fade-up-right")
+    .row.mt-5.mb-4.rounded-15.bg-amarillo-claro.p-5.zoom-in(data-aos="fade-up-right")
       .col-12.col-lg-8
         p A continuación, se pondrán en contexto varios ejemplos de organizaciones deportivas que fracasan en el tiempo:
         ul.lista-ul.mt-3
@@ -97,13 +96,14 @@
       .col-4.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-2-11.svg", alt="Texto que describa la imagen")
+    separador
     .titulo-segundo.mt-5.color-acento-contenido
       #t_2_2.h2 2.2  Acta de constitución del proyecto
     .row.mt-5
       .col-4.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-2-12.svg", alt="Texto que describa la imagen").margin-0-auto.floating
-      .col-12.col-lg-8.align-self-center
+      .col-12.col-lg-8
         p El proyecto inicia con el desarrollo de un acta de constitución o autorización, que consiste en un documento formal, donde la organización y/o patrocinadores del proyecto autorizan al director del proyecto para aplicar los recursos destinados para la ejecución del mismo. Mediante este documento, se incluyen los siguientes elementos:
         ul.lista-ul.mt-3.acento-contenido
           li 
@@ -113,7 +113,7 @@
             i.fas.fa-angle-right
             |  Se asignan responsabilidades al equipo ejecutor del proyecto.
         p.mt-3 El acta de constitución debe estar compuesta por: 
-    .row.mt-5(data-aos="slide-right")
+    .row.mt-5.mb-4(data-aos="slide-right")
       .col-10.col-lg-8.offset-1.offset-lg-2
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Propósito y Justificación")
@@ -183,16 +183,17 @@
                 img(src="@/assets/template/tema-2-23.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
               p.text-small Deberá estar firmado, al menos, por el sponsor o patrocinador del proyecto y por el director del proyecto.
+    separador
     .titulo-segundo.mt-5.color-acento-contenido
       #t_2_3.h2 2.3  Identificación de las partes interesadas  
-    .row.mt-5
+    .row.mt-2
       .col-4.col-lg-2.d-none.d-lg-block.align-self-center
-        figure
+        figure.w-80
           img(src="@/assets/template/tema-2-24.svg", alt="Texto que describa la imagen").px-4
       .col-12.col-lg-10
         p Una parte interesada es toda aquella persona interna al proyecto que tiene o puede tener capacidad para afectar en la actividad del mismo.
         p.mt-3 Esta es la primera actividad que realiza el director y equipo de trabajo. Consiste en identificar todas las partes interesadas, de forma directa o indirecta, en el proyecto, como se observa a continuación:
-    .row.mt-5
+    .row.mt-3
       .col-10.offset-1.py-5.d-none.d-lg-block(style="background-color: #ececec; height: 580px; overflow:hidden").position-relative
         .row.mx-0.h-100
           figure.z-index-2.d-none.d-lg-block.position-absolute(style="top: 2%; left:33%; width: 36%")
@@ -245,7 +246,7 @@
 
           p.text-small(numero="EM" titulo="EMPLEADOS") Talento humano que conforma el equipo ejecutor del proyecto.
     .row.mt-5
-      .col-12.col-lg-7.align-self-center
+      .col-12.col-lg-7
         p El director debe realizar el seguimiento y la revisión de la información sobre estas partes interesadas y sus requisitos pertinentes, determinando los siguientes puntos:
         ul.lista-ul.acento-contenido.mt-3
           li 

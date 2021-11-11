@@ -35,7 +35,7 @@
         p.mt-5 A continuación, se abordarán elementos conceptuales de la gestión de proyectos, como su definición, su clasificación y sus procesos:
     .titulo-segundo.mt-5.color-acento-contenido
       #t_1_1.h2 1.1 Concepto y tipos de proyectos
-    figure.mt-5(data-aos="flip-up")
+    figure.mt-0(data-aos="flip-up")
       img(src="@/assets/template/tema-1-3.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-4.col-lg-2.d-none.d-lg-block.align-self-center
@@ -108,7 +108,7 @@
                 p.mt-1 Orientados a garantizar el mayor rendimiento de la productividad y la calidad de los servicios de la organización.
     separador
 
-    .titulo-segundo.mt-4.color-acento-contenido
+    .titulo-segundo.mt-3.color-acento-contenido
       #t_1_2.h2 1.2 Concepto y procesos de la gestión de proyectos
     .row.mt-5.rounded-15.bg-amarillo-claro.p-5.zoom-in(data-aos="flip-left")
       .col-12.col-lg-8
@@ -121,11 +121,11 @@
         figure
           img(src="@/assets/template/tema-1-8.svg", alt="Texto que describa la imagen")
     .h3.text-center.mt-5 GRUPO PROCESOS
-    .row.mt-4.overflow-hidden.pt-5.pt-md-0
-      .col-12.mt-5.mt-sm-3.mt-md-0
-        .row.mt-5.mt-sm-3.mt-md-0
-          .col-12.col-lg-10.offset-0.offset-lg-1.pt-5
-            ImagenInfografica.color-primario.mt-5
+    .row.mt-0.overflow-hidden.pt-0.pt-md-0
+      .col-12.mt-0.mt-sm-3.mt-md-0
+        .row.mt-0.mt-sm-3.mt-md-0
+          .col-12.col-lg-10.offset-0.offset-lg-1.pt-0
+            ImagenInfografica.color-primario.mt-2
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/template/tema-1-9.png', alt='Texto que describa la imagen')
@@ -156,10 +156,10 @@
                 p.mt-2 Dirección y gestión del trabajo del proyecto.
                 p Realizar el aseguramiento de la calidad.
                 p Adquirir e incorporar el equipo del proyecto.
-                //- p Desarrollar el equipo de proyecto.
-                //- p Gestionar el equipo del proyecto.
-                //- p Efectuar la procura: adquisiciones y contrataciones.
-                //- p Gestionar el involucramiento de las partes interesadas.
+                p Desarrollar el equipo de proyecto.
+                p Gestionar el equipo del proyecto.
+                p Efectuar la procura: adquisiciones y contrataciones.
+                p Gestionar el involucramiento de las partes interesadas.
               .tarjeta.border-azul.bg-blanco.p-3(x="89.7%" y="55%" numero="")
                 .h4 4.  Procesos de seguimiento y control:
                 p.mt-2 Monitoreo del progreso y desempeño logrados, identificar y corregir desviaciones.
@@ -170,11 +170,11 @@
                 p Control del cronograma.
                 p Control de costos.
                 p Método de valor ganado.
-                //- p Control de calidad.
-                //- p Control de comunicaciones.
-                //- p Control de riesgos.
-                //- p Control de adquisiciones.
-                //- p Control de involucramiento de las partes interesadas.
+                p Control de calidad.
+                p Control de comunicaciones.
+                p Control de riesgos.
+                p Control de adquisiciones.
+                p Control de involucramiento de las partes interesadas.
               .tarjeta.border-azul.bg-blanco.p-3(x="97.4%" y="26.3%" numero="")
                 .h4 5.  Procesos de cierre:
                 p.mt-2 Fin de las actividades y cierre formal del proyecto o fase.

@@ -232,7 +232,7 @@
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_6.h2  3.6  Plan de gestión de comunicaciones  
-    .row.mt-5
+    .row.mt-3
       .col-12.col-lg-8.align-self-center
         p La gestión de las comunicaciones, según la PMBOK (2003), incluye los procesos necesarios para garantizar la adecuada y oportuna recopilación, distribución, almacenamiento, recuperación y disposición final de la información del proyecto.
         p.mt-3 La comunicación eficaz permite un puente entre las diferentes partes interesadas en el proyecto, suministrar la información requerida, a la persona requerida, en el momento oportuno, empleando el medio, formato y técnica más apropiados.
@@ -317,18 +317,19 @@
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_8.h2 3.8  Plan de gestión de adquisiciones del proyecto 
-    .row.mt-5
+    .row.mt-4
       .col-4.d-none.d-lg-block.align-self-center
         figure
-          img(src="@/assets/template/tema-3-29.svg", alt="Texto que describa la imagen").margin-0-auto.floating
-      .col-12.col-lg-8.align-self-center
+          img(src="@/assets/template/tema-3-29.svg", alt="Texto que describa la imagen").margin-0-auto.floating.w-80
+      .col-12.col-lg-8
         p Se entiende por gestión de adquisiciones todo servicio o producto que la organización debe contratar o proveer ante una persona u organización externa, por lo que es importante identificar qué hay que aprovisionar, cómo, por qué, cuánto y cuándo.
         p.mt-3 Se especifican los requerimientos en materia de adquisición de productos o servicios necesarios para la ejecución del proyecto, asimismo, se identifican los posibles suministradores, proveedores, plan de contratación y recursos para tal fin.
         p.mt-3 El proceso de gestión de adquisiciones comprende:
-    .row.mt-5
+    .row.mt-0
       .col-10.offset-1
         .titulo-sexto.color-acento-contenido.mt-5
           h5 Tabla 1
+          br
           span Proceso de gestión de adquisiciones
         .tabla-a.color-acento-contenido.mt-5 
           table

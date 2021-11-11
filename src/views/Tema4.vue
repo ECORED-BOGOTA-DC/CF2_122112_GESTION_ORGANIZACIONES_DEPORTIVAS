@@ -6,12 +6,12 @@
       .titulo-principal__numero
         span 4
       h1 Formulación de propuestas de mercado acordes con las necesidades de la población del sector
-    .row.mt-5
-      .col-12.col-lg-8.align-self-center
+    .row.mt-2
+      .col-12.col-lg-8
         p Para el correcto funcionamiento de una organización deportiva, es muy importante poder identificar y conocer la población a quien van dirigidos sus servicios; por lo cual, se abordarán temas como mercadeo, población objeto, portafolio de servicios y mercadeo deportivo. Se darán a conocer sus conceptos y características más importantes, se abordarán los principales elementos para la construcción de un portafolio de servicios y, de forma general, específicamente se tratará sobre el mercadeo deportivo y algunas de sus estrategias a aplicar.
       .col-4.d-none.d-lg-block.align-self-center
         figure
-          img(src="@/assets/template/tema-4-1.svg", alt="Texto que describa la imagen").margin-0-auto.floating
+          img(src="@/assets/template/tema-4-1.svg", alt="Texto que describa la imagen").margin-0-auto.floating.w-80
     .titulo-segundo.mt-5.color-acento-contenido
       #t_4_1.h2 4.1  Identificación del mercado y población objeto
     .row.mt-5(data-aos="flip-right")
@@ -97,7 +97,7 @@
                 .h4.small-text.mt-1.mt-md-0.mt-lg-2 Población 
                 p.mt-3.small-text Se refiere a la segmentación demográfica de las personas para determinar la población objeto; esta, a su vez, se refiere a los tipos de consumidores o el público en el cual se quiere centrar la empresa con su producto o servicio. Para realizar una segmentación de la población, se tienen variables como: edad, sexo, ingresos, vida familiar, nivel educativo, raza, ocupación, nación, etc. Esta segmentación permite crear los perfiles de los consumidores.
     .row.mt-5
-      .col-12.col-lg-10.align-self-center
+      .col-12.col-lg-10
         p La segmentación en el mercado es la identificación de grupos objeto a través de varias etapas: Observación del mercado, división del mercado, desarrollo del mercado. Segmentar la población posibilita comprender mejor al posible cliente, teniendo como base los siguientes aspectos: demografía, rasgos comportamentales, conocimientos técnicos, beneficios, entre otros. Existen varios tipos de segmentación de mercado:
       .col-4.col-lg-2.d-none.d-lg-block.align-self-center
         figure
@@ -171,11 +171,11 @@
 
     .titulo-segundo.mt-5.color-acento-contenido
       #t_4_3.h2 4.3  Construcción de portafolio de servicios  
-    .row.mt-5
+    .row.mt-3
       .col-4.col-lg-2.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-4-16.svg", alt="Texto que describa la imagen").px-4.floating    
-      .col-12.col-lg-10.align-self-center
+      .col-12.col-lg-10
         p El portafolio de servicios debe incluir diversos ítems, los cuales deben dar cuenta, de manera fácil y clara, de los aspectos más relevantes de la empresa / organización / persona, y generar empatía con el cliente. Las partes fundamentales de un portafolio de servicios son: la presentación, los objetivos, la misión y la visión, certificaciones, sociedades, clientes, proveedores, servicios, proyectos, e información de contacto. Observe:
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-left")
@@ -246,7 +246,7 @@
 
     .titulo-segundo.mt-5.color-acento-contenido
       #t_4_4.h2 4.4  Concepto y estrategias de mercadeo deportivo
-    p.mt-5 Se da inicio a este tema abordando el concepto de mercadeo deportivo y las estrategias para su implementación. 
+    p.mt-0 Se da inicio a este tema abordando el concepto de mercadeo deportivo y las estrategias para su implementación. 
     .row.mt-3
       .col-12.col-lg-6.align-self-center
         .h4 Concepto de mercadeo deportivo
@@ -313,9 +313,9 @@
             i.fas.fa-angle-right
             p #[strong.text-azul Estrategia de mercadeo directo:] El cliente obtiene información directa y personalizada de la organización, sin intermediarios.
     p.mt-5 Finalmente, independientemente de la estrategia que la organización seleccione, se deberán tener en cuenta los siguientes pasos para garantizar su éxito:
-    .row.mt-5
-      .col-12.col-lg-7.align-self-center.offset-1
-        ul.lista-ul.mt-3
+    .row.mt-4
+      .col-12.col-lg-7.offset-1
+        ul.lista-ul
           li 
             i.fas.fa-angle-right
             | Identificar la posición de la organización en el mercado, su trayectoria, fortaleza y debilidades.
@@ -336,7 +336,7 @@
             | Controlar la implementación del plan de acuerdo con el tiempo y los recursos.
       .col-4.d-none.d-lg-block.align-self-center
         figure
-          img(src="@/assets/template/tema-4-30.svg", alt="Texto que describa la imagen").margin-0-auto.floating
+          img(src="@/assets/template/tema-4-30.svg", alt="Texto que describa la imagen").margin-0-auto.floating.w-80
     
       
 
