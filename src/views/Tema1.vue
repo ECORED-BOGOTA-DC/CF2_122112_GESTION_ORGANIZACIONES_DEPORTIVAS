@@ -61,8 +61,11 @@
         figure
           img(src="@/assets/template/tema-1-6.svg", alt="Texto que describa la imagen").px-2
     p.mt-4 Existen diferentes tipos de proyectos, los cuales presentan rasgos y características propias que se describen a continuación: 
+    .row.mt-5
+       .col-12
+        .titulo-quinto.color-acento-contenido.mt-5
+          h4 Tipos de proyectos
     .row.mt-5(data-aos="slide-up")
-      .col-12.col-lg-10.offset-0.offset-lg-1
         ImagenInfograficaB.color-primario.mb-5
           template(v-slot:imagen)
             figure
@@ -108,7 +111,7 @@
                 p.mt-1 Orientados a garantizar el mayor rendimiento de la productividad y la calidad de los servicios de la organización.
     separador
 
-    .titulo-segundo.mt-3.color-acento-contenido
+    .titulo-segundo.mt-5.color-acento-contenido
       #t_1_2.h2 1.2 Concepto y procesos de la gestión de proyectos
     .row.mt-5.rounded-15.bg-amarillo-claro.p-5.zoom-in(data-aos="flip-left")
       .col-12.col-lg-8
@@ -120,7 +123,10 @@
       .col-4.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-1-8.svg", alt="Texto que describa la imagen")
-    .h3.text-center.mt-5 GRUPO PROCESOS
+    .row
+      .col-12
+        .titulo-quinto.color-acento-contenido.mt-5
+          h4 Grupo de procesos
     .row.mt-0.overflow-hidden.pt-0.pt-md-0
       .col-12.mt-0.mt-sm-3.mt-md-0
         .row.mt-0.mt-sm-3.mt-md-0
@@ -160,21 +166,21 @@
                 p Gestionar el equipo del proyecto.
                 p Efectuar la procura: adquisiciones y contrataciones.
                 p Gestionar el involucramiento de las partes interesadas.
-              .tarjeta.border-azul.bg-blanco.p-3(x="89.7%" y="55%" numero="")
+              .tarjeta.border-azul.bg-blanco.p-3.f-10(x="89.7%" y="55%" numero="")
                 .h4 4.  Procesos de seguimiento y control:
                 p.mt-2 Monitoreo del progreso y desempeño logrados, identificar y corregir desviaciones.
                 .h4.mt-4 Sus elementos de proceso son:
                 p.mt-2 Seguimiento y control del trabajo del proyecto.
-                p Validar el alcance.
-                p Control del alcance.
-                p Control del cronograma.
-                p Control de costos.
-                p Método de valor ganado.
-                p Control de calidad.
-                p Control de comunicaciones.
-                p Control de riesgos.
-                p Control de adquisiciones.
-                p Control de involucramiento de las partes interesadas.
+                p.f-10 Validar el alcance.
+                p.f-10 Control del alcance.
+                p.f-10 Control del cronograma.
+                p.f-10 Control de costos.
+                p.f-10 Método de valor ganado.
+                p.f-10 Control de calidad.
+                p.f-10 Control de comunicaciones.
+                p.f-10 Control de riesgos.
+                p.f-10 Control de adquisiciones.
+                p.f-10 Control de involucramiento de las partes interesadas.
               .tarjeta.border-azul.bg-blanco.p-3(x="97.4%" y="26.3%" numero="")
                 .h4 5.  Procesos de cierre:
                 p.mt-2 Fin de las actividades y cierre formal del proyecto o fase.

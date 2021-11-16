@@ -7,13 +7,14 @@
         span 3
       h1 Grupo de planificación del proyecto
 
-    .row.mt-5.p-5.bg-amarillo-claro.rounded-15(data-aos="fade-right")
+    .row.my-5.p-5.bg-amarillo-claro.rounded-15(data-aos="fade-right")
       .col-12.col-lg-7
         p Este grupo es el encargado de la estructuración de una serie de acciones que se llevan a cabo para cumplir los objetivos del proyecto. Debe anticiparse a eventos que pueden representar una amenaza u oportunidad. De ese modo, busca reducir los impactos negativos de dichas contingencias e impulsar los positivos. 
         p.mt-3 En este tema del componente, se abordan los elementos más relevantes para planificar el proyecto. Por lo que, en esta fase del proyecto, se establece un plan, contemplando los alcances, recursos y todo lo necesario para que se dé el cumplimiento conforme a los objetivos y requerimientos de las partes interesadas.
       .col-lg-5.d-none.d-lg-block.px-4.align-self-center
         figure
           img(src="@/assets/template/tema-3-1.svg", alt="Texto que describa la imagen")
+    separador
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_1.h2 3.1  Plan de gestión del alcance del proyecto 
     figure.mt-4(data-aos="flip-up")
@@ -68,7 +69,7 @@
                   li.mt-1 
                     i.fas.fa-angle-right
                     | Agrupación en una estructura jerárquica que representa el alcance del proyecto.
-    separador.mt-3
+    separador.mt-5
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_2.h2 3.2  Plan de gestión del cronograma del proyecto
@@ -100,7 +101,7 @@
           li.mt-2 
             i.fas.fa-angle-right
             | Qué se hará cuando se produzcan variaciones.
-    separador.mt-3
+    separador.mt-5
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_3.h2  3.3  Plan de gestión de costos del proyecto 
@@ -138,11 +139,11 @@
       .col-4.col-lg-2.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-3-15.svg", alt="Texto que describa la imagen").px-4.floating
-    separador.mt-3
+    separador.mt-5
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_4.h2 3.4  Plan de gestión de calidad del proyecto
-    .row.mt-5.rounded-15.bg-amarillo-claro.p-5.zoom-in(data-aos="slide-left")
+    .row.my-5.rounded-15.bg-amarillo-claro.p-5.zoom-in(data-aos="slide-left")
       .col-12.col-lg-8
         p En el plan de gestión de calidad del proyecto, se establecen los requerimientos de calidad que deben cumplir los entregables del proyecto.
         p.mt-3 Al finalizar cada una de las fases del proyecto, surgen entregables, para los cuales, desde la fase de planificación del proyecto, se deben establecer parámetros de calidad esperados.
@@ -171,7 +172,7 @@
       .col-4.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-3-16.svg", alt="Texto que describa la imagen")
-    separador.mt-3
+    separador.mt-5
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_5.h2 3.5  Plan de gestión de recursos humanos  
@@ -228,7 +229,7 @@
             .col-12.col-lg-10.align-self-center
               p.text-small Aquí deben estar contemplados los horarios, normas disciplinarias, evaluaciones, pago de salarios, mecanismos para reclamaciones, políticas de seguridad en cuanto a protección de datos, entre otros.
     p.mt-5 Una vez desarrolladas las anteriores tareas, el plan de gestión de recursos humanos se convertirá en una herramienta vital para gestionar el personal del proyecto de forma eficiente, optimizar procesos, identificar las necesidades en tiempo oportuno y encaminar a la empresa hacia el logro de sus objetivos.
-    separador.mt-3
+    separador.mt-5
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_6.h2  3.6  Plan de gestión de comunicaciones  
@@ -274,7 +275,7 @@
           li.mt-1 
             i.fas.fa-angle-right
             | Cómo se reciben los requerimientos e información necesaria de clientes, proveedores y demás partes interesadas del proyecto.
-    separador.mt-3
+    separador.mt-5
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_7.h2 3.7  Plan de gestión del riesgo del proyecto 
@@ -313,7 +314,7 @@
             .h4 Riesgos que afecten el talento humano y/o usuario del proyecto: 
             p.mt-3 Accidentes, enfermedades, e incluso la muerte asociada por actividades relacionadas con el proyecto. 
     p.mt-5 En la fase de planeación del proyecto, se diseña y documenta el plan de gestión del riesgo. Se establecen las estrategias, el método para la identificación, análisis de riesgos, desarrollo del plan, monitoreo, control y evaluación. 
-    separador.mt-3
+    separador.mt-5
     
     .titulo-segundo.mt-5.color-acento-contenido
       #t_3_8.h2 3.8  Plan de gestión de adquisiciones del proyecto 

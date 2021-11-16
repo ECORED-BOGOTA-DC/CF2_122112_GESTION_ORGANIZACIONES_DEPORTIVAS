@@ -6,12 +6,13 @@
       .titulo-principal__numero
         span 4
       h1 Formulación de propuestas de mercado acordes con las necesidades de la población del sector
-    .row.mt-2
+    .row.mt-5
       .col-12.col-lg-8
         p Para el correcto funcionamiento de una organización deportiva, es muy importante poder identificar y conocer la población a quien van dirigidos sus servicios; por lo cual, se abordarán temas como mercadeo, población objeto, portafolio de servicios y mercadeo deportivo. Se darán a conocer sus conceptos y características más importantes, se abordarán los principales elementos para la construcción de un portafolio de servicios y, de forma general, específicamente se tratará sobre el mercadeo deportivo y algunas de sus estrategias a aplicar.
       .col-4.d-none.d-lg-block.align-self-center
         figure
           img(src="@/assets/template/tema-4-1.svg", alt="Texto que describa la imagen").margin-0-auto.floating.w-80
+      separador.mt-5
     .titulo-segundo.mt-5.color-acento-contenido
       #t_4_1.h2 4.1  Identificación del mercado y población objeto
     .row.mt-5(data-aos="flip-right")
@@ -105,7 +106,7 @@
     .row.mt-5
       .col-10.col-lg-8.offset-1.offset-lg-2(data-aos="fade-right")
         LineaTiempoD.color-primario
-          .row(numero="1" titulo="Segmentación socio-demográfica :")
+          .row(numero="1" titulo="Segmentación socio-demográfica")
             .col-2.d-none.d-lg-block
               figure
                 img(src="@/assets/template/tema-4-9.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
@@ -131,7 +132,7 @@
                 img(src="@/assets/template/tema-4-12.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center 
               p.text-small Es la división del mercado según las diferencias geográficas de cada lugar; analiza y recopila información de acuerdo con la ubicación física de cada persona.
-    separador.mt-3
+    separador.mt-5
 
     .titulo-segundo.mt-5.color-acento-contenido
       #t_4_2.h2 4.2  Concepto y características de portafolio de servicio 
@@ -167,7 +168,7 @@
                 .h4.small-text.mt-1.mt-md-0.mt-lg-2 Portafolios digitales 
                 p.mt-3.small-text Estos documentos se encuentran en archivos electrónicos, los cuales pueden accederse desde dispositivos móviles, computadoras, etc.
                 p.mt-3.small-text Suelen estar en diferentes formatos, e incluso interactivos.
-    separador.mt-3
+    separador.mt-5
 
     .titulo-segundo.mt-5.color-acento-contenido
       #t_4_3.h2 4.3  Construcción de portafolio de servicios  
@@ -242,7 +243,7 @@
                 img(src="@/assets/template/tema-4-26.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-12.col-lg-9.align-self-center
               p.text-small El portafolio de servicios debe cerrar con la información de contacto, de modo que los lectores de este documento puedan comunicarse con la empresa si están interesados en los servicios ofrecidos. Se debe incluir la dirección de la empresa, teléfonos, correos electrónicos, páginas web y redes sociales, en caso de que las tenga.
-    separador.mt-3
+    separador.mt-5
 
     .titulo-segundo.mt-5.color-acento-contenido
       #t_4_4.h2 4.4  Concepto y estrategias de mercadeo deportivo
@@ -289,29 +290,29 @@
         ul.lista-ul.mt-5
           li 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategias de segmentación: ] Enfocadas en la selección del público – cliente objetivo.
+            p #[strong.text-azul Estrategias de segmentación: ] enfocadas en la selección del público – cliente objetivo.
 
           li.mt-2
             i.fas.fa-angle-right
-            p #[strong.text-azul  Estrategias basadas en la competencia:] Se define la posición que se ocupa en el mercado respecto a la competencia.
+            p #[strong.text-azul  Estrategias basadas en la competencia:] se define la posición que se ocupa en el mercado respecto a la competencia.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategia de posicionamiento de marca:] Se establecen mecanismos para un mayor reconocimiento de la marca en el mercado.
+            p #[strong.text-azul Estrategia de posicionamiento de marca:] se establecen mecanismos para un mayor reconocimiento de la marca en el mercado.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategias de nuevos mercados:] Buscan expandir la oferta a nuevos clientes y nuevos territorios.
+            p #[strong.text-azul Estrategias de nuevos mercados:] buscan expandir la oferta a nuevos clientes y nuevos territorios.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategias de mercadeo digital:] Posicionan la oferta de productos y servicios a través del comercio digital.
+            p #[strong.text-azul Estrategias de mercadeo digital:] posicionan la oferta de productos y servicios a través del comercio digital.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategia de fidelización:] Se establecen mecanismos para generar adherencia del cliente con la organización y evitar que se vaya con la competencia.
+            p #[strong.text-azul Estrategia de fidelización:] se establecen mecanismos para generar adherencia del cliente con la organización y evitar que se vaya con la competencia.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategia del voz a voz:] Se basa en las buenas recomendaciones de clientes satisfechos a otros futuros y potenciales nuevos clientes.
+            p #[strong.text-azul Estrategia del voz a voz:] se basa en las buenas recomendaciones de clientes satisfechos a otros futuros y potenciales nuevos clientes.
           li.mt-2 
             i.fas.fa-angle-right
-            p #[strong.text-azul Estrategia de mercadeo directo:] El cliente obtiene información directa y personalizada de la organización, sin intermediarios.
+            p #[strong.text-azul Estrategia de mercadeo directo:] el cliente obtiene información directa y personalizada de la organización, sin intermediarios.
     p.mt-5 Finalmente, independientemente de la estrategia que la organización seleccione, se deberán tener en cuenta los siguientes pasos para garantizar su éxito:
     .row.mt-4
       .col-12.col-lg-7.offset-1

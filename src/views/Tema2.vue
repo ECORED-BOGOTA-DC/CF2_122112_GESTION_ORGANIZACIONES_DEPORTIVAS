@@ -18,7 +18,8 @@
             .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block
               figure
                 img(src="@/assets/template/tema-2-2.svg", alt="Texto que describa la imagen").floating.w-75.margin-0-auto
-    .titulo-segundo.mt-0.color-acento-contenido
+    separador
+    .titulo-segundo.mt-5.color-acento-contenido
       #t_2_1.h2 2.1 Definición y componentes para el inicio de un proyecto
     figure.mt-0(data-aos="flip-up")
       img(src="@/assets/template/tema-2-3.png", alt="Texto que describa la imagen")
@@ -96,7 +97,7 @@
       .col-4.offset-4.offset-lg-0.align-self-center
         figure
           img(src="@/assets/template/tema-2-11.svg", alt="Texto que describa la imagen")
-    separador
+    separador.mt-5
     .titulo-segundo.mt-5.color-acento-contenido
       #t_2_2.h2 2.2  Acta de constitución del proyecto
     .row.mt-5
@@ -183,7 +184,7 @@
                 img(src="@/assets/template/tema-2-23.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             .col-12.col-lg-10.align-self-center
               p.text-small Deberá estar firmado, al menos, por el sponsor o patrocinador del proyecto y por el director del proyecto.
-    separador
+    separador.mt-5
     .titulo-segundo.mt-5.color-acento-contenido
       #t_2_3.h2 2.3  Identificación de las partes interesadas  
     .row.mt-2
@@ -193,6 +194,10 @@
       .col-12.col-lg-10
         p Una parte interesada es toda aquella persona interna al proyecto que tiene o puede tener capacidad para afectar en la actividad del mismo.
         p.mt-3 Esta es la primera actividad que realiza el director y equipo de trabajo. Consiste en identificar todas las partes interesadas, de forma directa o indirecta, en el proyecto, como se observa a continuación:
+    .row.mt-5
+      .col-12
+        .titulo-quinto.color-acento-contenido.mt-5
+          h4 Identificación de las partes interesadas
     .row.mt-3
       .col-10.offset-1.py-5.d-none.d-lg-block(style="background-color: #ececec; height: 580px; overflow:hidden").position-relative
         .row.mx-0.h-100
