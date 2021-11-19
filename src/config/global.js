@@ -329,24 +329,44 @@ export default {
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Adriana Marcela Suárez Eljure ',
         cargo: 'Producción audiovisual',
         centro: 'Regional Tolima - Centro de Comercio y Servicios',
       },
       {
-        nombre: ' ',
+        nombre: 'Andrés Felipe Herrera Roldan',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: 'José Jaime Luis Tang Pinzón',
+        cargo: 'Producción audiovisual',
+        centro: 'Regional Tolima - Centro de Comercio y Servicios',
+      },
+      {
+        nombre: 'Ricardo Vásquez Arroyave ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Wilson Andrés Arenales Caceres ',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura  - Regional Santander',
